@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Spartan',sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+} 
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    transition: 0.2s;
+}
+
+body{
+    width: 100%;
+    background-color: white;
+    color:black;
+}
+.myDark{
+    background-color:rgb(126, 123, 123);
+    color:white;
+}
+#coupon{
+    height:450px;
+    width:750px;
+    z-index: 100;
+    position: absolute;
+    margin-left: 30%;
+
+}
+#coupon>img{
+    height:446px;
+    width: 100%;
+    
+}
+#coupon>button{
+    width:30px;
+    height:30px;
+    position: absolute;
+    margin-left: 96%;
+}
+
+
+
+
+/* Header */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: #E3E6f3;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.myDark #header{ 
+    background-color:rgb(126, 123, 123);
+}
+.logo {
+    height: 70px;
+    width: 100%;
+    box-shadow: 7px 5px 7px grey;
+    border-radius: 4px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li button{
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 1px 7px 1px grey;
+    border-radius: 6px;
+    color: white;
+    background: grey;
+}
+#navbar li input{
+    padding:8px;
+    border-radius: 6px;
+}
+
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.2s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: blue;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 40%;
+    height: 3px;
+    background-color:blue;
+    position:absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile{
+    display: none;
+    align-items: center;
+}
+ #close{
+     display: none;
+ }
+ 

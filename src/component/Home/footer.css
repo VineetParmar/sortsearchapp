@@ -1,0 +1,39 @@
+.logo2{
+    height: 80px;
+    width: 200px;
+    box-shadow: 7px 5px 7px grey;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+.apps{
+    height: 40px;
+    width: 120px;
+}
+.pay{
+    height: 45px;
+    width: 230px;
+}
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#footer a{
+    font-size: 14px;
+    margin: 4px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+#footer .about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+footer .copyr{
+    text-align: center;
+    padding: 40px;
+}

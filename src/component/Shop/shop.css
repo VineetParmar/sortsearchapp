@@ -1,0 +1,121 @@
+#model{
+    background-size: cover;
+    background-image: url("https://i.ibb.co/vxjBPW3/summerdays.jpg");
+    height: 90vh;
+    width: 100%;
+    background-color: #E3E6f3;
+    background-repeat: no-repeat;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+#model h4{
+    padding-bottom: 15px;
+}
+#model h1{
+    color: rgb(72, 72, 247);
+}
+#model>button{
+     background-color: #eb5027;
+     color:white;
+     border: 0;
+     padding:  15px 70px 10px 60px;
+     border-radius: 10px;
+     background-repeat: no-repeat;
+     cursor: pointer;
+     font-weight: 700;
+     font-size: 18px;
+     transition: 0.2s;
+}
+#model button:hover{
+    color: gray;
+    transform: scale(0.97);
+}
+
+
+
+
+.f-box img{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 20px;
+}
+#features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#features .f-box{
+    width: 240px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.04);
+    border: 4px solid rgb(132, 132, 250) ;
+    border-radius: 6px;
+    margin: 18px 0;
+    transition: 0.2s;
+}
+
+#features .f-box:hover{
+    /* transform: scale(1.1); */
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+    transform: scale(0.97);
+}
+
+#features .f-box h6{
+    padding: 14px 12px 12px 14px;
+    line-height: 1;
+    color:rgb(87, 87, 175) ;
+    /* background-color: yellowgreen; */
+    font-size: 16px;
+    display: inline-block;
+    background-color: #fddde4;
+}
+#features .f-box:nth-child(2) h6 {
+    background-color: #cdebbc;
+}
+#features .f-box:nth-child(3) h6 {
+    background-color:#fff2e5;
+}
+#features .f-box:nth-child(4) h6 {
+    background-color: #cdd4f8;
+}
+#features .f-box:nth-child(5) h6 {
+    background-color: #f6dbf6;
+}
+#features .f-box:nth-child(6) h6 {
+    background-color:#d1e8f2  ;
+}
+
+.conts{
+    margin: 0 auto;
+    border:2px solid black;
+    width:100%;
+    max-width:1024px;
+    min-height:900px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.prod{
+    width: 250px;
+    height:320px;
+    border:2px solid black;
+    border-radius: 10px;
+    margin:5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#Sort{
+    margin:0px 70px;
+}
